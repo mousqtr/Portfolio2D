@@ -1,0 +1,109 @@
+@media only screen and (max-width: 768px) {{
+    width: 100%;
+  }
+
+.col-menu {width: 100%;}
+.col-cv {width: 100%;}
+.col-centrale {width: 100%;}
+.col-contact-titre {width: 100%;}
+.col-contact {width: 50%;}
+
+.col-photo{width: 50%;}
+.col-presentation {width: 100%;}
+  
+.col-ecole {width: 100%;}
+.col-presentation-ecole {width: 100%;} 
+
+.col-projets{width: 96%;} 
+.col-presentation-projets {width: 65%;}
+}
+
+
+
+@media only screen and (min-width: 468px) and (max-width: 768px) {{
+    width: 100%;
+  }
+.col-menu {width: 100%;}
+.col-cv {width: 100%;}
+.col-centrale {width: 100%;}
+.col-contact-titre {width: 100%;}
+.col-contact {width: 50%;}
+
+.col-photo{width: 45%;}
+.col-presentation {width: 100%;}
+
+.col-ecole {width: 35%;}
+.col-presentation-ecole {width: 65%;}
+
+.col-projets{width: 96%;}
+.col-presentation-projets {width: 65%;}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {{
+    width: 100%;
+  }
+
+.col-photo{width: 40%;}
+.col-presentation {width: 100%;}
+
+.col-ecole {width: 35%;}
+.col-presentation-ecole {width: 65%;}
+
+.col-projets{width: 96%;}
+.col-presentation-projets {width: 65%;}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+
+.col-photo{width: 35%;}
+.col-presentation {width: 100%;}
+
+.col-ecole {width: 35%;}
+.col-presentation-ecole {width: 65%;}
+
+.col-projets{width: 96%;}
+.col-presentation-projets {width: 65%;}
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+
+.col-photo{width: 30%;}
+
+.col-ecole {width: 25%;}
+.col-presentation-ecole {width: 75%;}
+
+.col-projets{width: 46%;}
+.col-presentation-projets {width: 65%;}
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+
+.col-photo{width: 30%;}
+
+.col-ecole {width: 25%;}
+.col-presentation-ecole {width: 75%;}
+
+.col-projets{width: 46%;}
+.col-presentation-projets {width: 65%;}
+
+}
+
+
+@media only screen and (min-width: 1500px)  {
+
+.col-photo{width: 30%;}
+
+.col-ecole {width: 25%;}
+.col-presentation-ecole {width: 75%;}
+
+.col-projets{width: 46%;}
+.col-presentation-projets {width: 65%;}
+
+}
