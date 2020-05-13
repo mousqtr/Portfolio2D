@@ -215,6 +215,11 @@ b:before{
 
 
 
+.cv_framework{
+  border:30px solid #FFFFFF;
+}
+
+
 /* Contact */
 .contact::after {
   content: "";
