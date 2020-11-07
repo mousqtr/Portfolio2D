@@ -2,6 +2,19 @@
     width: 100%;
   }
 
+.col-0 {width: 0%;padding:0;}
+.col-1 {width: 100%;}
+.col-2 {width: 0%;padding:0;}
+
+/* Home page */
+[class*="title-"] {margin-top:5px; margin-bottom: 5px;}
+.b12{margin-top: 4px; margin-bottom: 4px;}
+.b3{margin-top: 4px; margin-bottom: 4px;}
+
+
+
+
+
 .col-menu {width: 100%;}
 .col-cv {width: 100%;}
 .col-centrale {width: 100%;}
@@ -23,6 +36,16 @@
 @media only screen and (min-width: 468px) and (max-width: 768px) {{
     width: 100%;
   }
+
+.col-0 {width: 0%; padding:0;}
+.col-1 {width: 100%;}
+.col-2 {width: 0%;padding:0;}
+
+/* Home page */
+[class*="title-"] {margin-top:5px; margin-bottom: 5px;}
+.b12{margin-top: 6px; margin-bottom: 6px;}
+.b3 {margin-top: 6px; margin-bottom: 6px;}
+
 .col-menu {width: 100%;}
 .col-cv {width: 100%;}
 .col-centrale {width: 100%;}
@@ -45,6 +68,15 @@
     width: 100%;
   }
 
+.col-0 {width: 2.5%;}
+.col-1 {width: 95%;}
+.col-2 {width: 2.5%;}
+
+/* Home page */
+[class*="title-"] {margin-top:6px; margin-bottom: 6px;}
+.b12{margin-top: 9px; margin-bottom: 9px;}
+.b3 {margin-top: 9px; margin-bottom: 9px;}
+
 .col-photo{width: 40%;}
 .col-presentation {width: 100%;}
 
@@ -56,6 +88,15 @@
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+
+.col-0 {width: 5%;}
+.col-1 {width: 90%;}
+.col-2 {width: 5%;}
+
+/* Home page */
+[class*="title-"] {margin-top:7px; margin-bottom: 7px;}
+.b12{margin-top: 11px; margin-bottom: 11px;}
+.b3 {margin-top: 11px; margin-bottom: 11px;}
 
 .col-photo{width: 35%;}
 .col-presentation {width: 100%;}
@@ -72,6 +113,15 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
+.col-0 {width: 7.5%;}
+.col-1 {width: 85%;}
+.col-2 {width: 7.5%;}
+
+/* Home page */
+[class*="title-"] {margin-top:8px; margin-bottom: 8px;}
+.b12{margin-top: 14px; margin-bottom: 14px;}
+.b3 {margin-top: 14px; margin-bottom: 14px;}
+
 .col-photo{width: 30%;}
 
 .col-ecole {width: 25%;}
@@ -85,6 +135,15 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
+.col-0 {width: 10%;}
+.col-1 {width: 80%;}
+.col-2 {width: 10%;}
+
+/* Home page */
+[class*="title-"] {margin-top:9px; margin-bottom: 9px;}
+.b12{margin-top: 17px; margin-bottom: 17px;}
+.b3 {margin-top: 17px; margin-bottom: 17px;}
+
 .col-photo{width: 30%;}
 
 .col-ecole {width: 25%;}
@@ -97,6 +156,15 @@
 
 
 @media only screen and (min-width: 1500px)  {
+
+.col-0 {width: 15%;}
+.col-1 {width: 75%;}
+.col-2 {width: 15%;}
+
+/* Home page */
+[class*="title-"] {margin-top:10px; margin-bottom: 10px;}
+.b12{margin-top: 20px; margin-bottom: 20px;}
+.b3 {margin-top: 20px; margin-bottom: 20px;}
 
 .col-photo{width: 30%;}
 

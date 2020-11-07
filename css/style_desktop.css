@@ -11,16 +11,46 @@ body {
   background-color: #F2F2F2;
 }
 
-.first_part::after {
+.row-1::after {
   content: "";
   clear: both;
   display: block;
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 10px;
+[class*="col-"] {float: left; padding: 10px;}
+
+.col-1{
+  padding: 0px;
+  margin-top:0px;
 }
+
+
+/* Home page */
+[class*="title-"] { width:96%; margin-left: 2%; margin-right: 2%; padding: 4px;
+                  font-weight: bold; letter-spacing: 1px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 2vw;
+                  color:white;
+                  box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
+
+.title-presentation {background-color: #FF8C00}
+.b12 {display: flex; padding: 0px; width:100%;}
+.sb12 {width:32%; margin-left: 2%; margin-right: 2%;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
+.sb21 {width:62%; margin-left: 2%, margin-right: 2%;position:relative;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
+.text-presentation{position: absolute; top:10px; bottom:10px; left:10px; right:10px; 
+                  text-align: justify; font-size: 1.3vw; font-family: Arial, Helvetica, sans-serif; 
+                  color:black;}
+
+
+.title-selection {background-color: #12014f}
+.b3 {display: flex; padding: 0px; width:100%;}
+.sb3 {width:32%; margin-left: 2%; margin-right: 2%;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
+.sb3 img:hover {opacity: 0.7;}
+
+
+
+
 
 
 .col-centrale{
@@ -46,14 +76,15 @@ body {
   padding-top: 10px;
   padding-bottom: 5px; 
 }
-.title_logo {
+.site-name {
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
   text-decoration: none;
+  font-size: 
 }
-.title_logo a:hover {
+.site-name a:hover {
   color: #EC3E50;
 }
 .menu ul {
@@ -80,12 +111,6 @@ body {
   background-color:#6600cc;
 }
 
-
-
-/* Accueil */
-.col-photo{
-
-}
 
 /* Formation */
 .nom_ecole{
@@ -129,7 +154,6 @@ b:before{
   margin : 2%;
   background-color: #631120;
   color : #FFFFFF;
-
 }
 
 
@@ -206,14 +230,6 @@ b:before{
   transform: translate(-50%, -50%);
   width: 100%;
 }
-/*
-.col-projet-centrale h1{
-  padding-top : 10px;
-  font-size: 25px;
-  text-align: center;
-}*/
-
-
 
 .cv_framework{
   border:30px solid #FFFFFF;
@@ -230,13 +246,16 @@ b:before{
   background-color: #000000;
   color: #ffffff;
   text-align: center;
-  font-size: 14px;
+  font-size: 1.5vw;
   padding: 15px;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* For desktop: */
+
+
+
+
 .col-menu {width: 25%;}
 .col-cv {width: 15%;}
 .col-centrale {width: 75%;}
@@ -244,8 +263,6 @@ b:before{
 .col-contact {width: 50%;}
 .col-menu {width: 25%;}
 
-.col-photo {width: 25%; margin:3%;}
-.col-presentation {width: 100%;}
 
 .col-presentation-ecole {width: 75%;}
 .col-ecole {width: 25%;}
