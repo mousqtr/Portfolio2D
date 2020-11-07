@@ -6,23 +6,48 @@
 <link rel="stylesheet" type="text/css" href="css/style_mobile.css">
 <title>Mustapha BENBRIKHO</title>
 <meta name="description" content="Bonjour à tous et bienvenue sur mon site internet. Celui-ci a pour objectif de partager mon parcours scolaire et professionnel." />
-<link rel="icon" type="image/png" href="img/site/cube.png" />
+<link rel="icon" type="image/png" href="img/logo.png" />
 <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-<div class="header" >
-  <p class="imagelogo">
-    <img src="img/site/cube.png" alt="logo" width=30px />
-  </p>
-  <p style="line-height:51px;">
-    <a href="index.html" class="site-name">Mustapha BENBRIKHO</a>
-  </p>
+<!-- Management of the header -->
+<div class="navigation">
+  <div id="company-title">
+    <div class="company-sub-title">
+      <img src="img/logo.png" alt="logo"/>
+      <p>Mustapha BENBRIKHO</p>
+    </div>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="#" class="active">Accueil</a></li>
+      <li><a href="index_cv.html">CV</a></li>
+      <li><a href="index_projets.html">Projets</a></li>
+      <li><a href="#">Expériences</a>
+        <ul>
+          <li><a href="index_experiences_pro.html">Expériences professionnelles</a></li>
+          <li><a href="index_associations.html">Expériences associatives</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Profil</a>
+        <ul>
+          <li><a href="#">Présentation</a></li>
+          <li><a href="index_formation.html">Parcours scolaire</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
+
+
 
 <!-- Image en-tête -->
 <div class="wallpaper">
-  <img src="img/accueil/w3.jpg" alt="bannière du site" width=100% />
+  <img src="img/wallpaper.jpg" alt="bannière du site" width=100% />
 </div>
 
 
@@ -35,40 +60,58 @@
 
     <p class="title-presentation">Presentation</p>
 
-    <div class="b12">
+    <div class="section-12">
       <div class="sb12">
-        <img src="img/network.jpg" width=100% height=100% alt="bridge"/>
+        <img src="img/network.jpg" width=100% height=100% alt="network"/>
       </div>
       <div class="sb21">
-        <img src="img/test3.jpg" width=100% height=100% alt="bridge"/>
-        <p class="text-presentation">Bonjour à tous, je me nomme Mustapha BENBRIKHO et je vous souhaite la bienvenue sur mon site internet.<br><br> Vous trouverez ici un résumé de mon parcours scolaire et professionnel ainsi qu'associatifs. De plus, les différents projets sur lesquels j'ai eu l'occasion de travailler, ou sur lesquels je travaille en ce moment, seront eux-aussi repertoriés. Dans cette optique, j'espère pouvoir échanger avec de nouveaux interlocuteurs afin d'enrichir mes connaissances et par la même occasion relever de nouveaux défis.</p>
+        <img src="img/test3.jpg" width=100% height=100% alt=""/>
+        <div class="text-presentation">
+          <h4>Bienvenue sur mon site internet</h4><br> Vous trouverez ici un résumé de mon parcours scolaire, professionnel et qu'associatif. De plus, les différents projets sur lesquels j'ai eu l'occasion de travailler, ou sur lesquels je travaille en ce moment, seront eux-aussi repertoriés. Dans cette optique, j'espère pouvoir échanger avec de nouveaux interlocuteurs afin d'enrichir mes connaissances et par la même occasion relever de nouveaux défis.</div>
       </div>
     </div>
 
 
     <p class="title-selection">Contenu du site</p>
 
-    <div class="b3">
+    <div class="section-3">
       <div class="sb3">
-        <a href=""><img src="img/library2.jpg" width=100% alt="bridge"/></a>
+        <a href=""><img src="img/profil2.jpg" width=100% height=100% alt="profil"/></a>
       </div>
       <div class="sb3">
-        <a href="index_formation.html"><img src="img/library2.jpg" width=100% alt="bridge"/></a>
+        <a href="index_formation.html"><img src="img/library2.jpg" width=100% height=100% alt="formation"/></a>
       </div>
       <div class="sb3">
-        <a href="index_experiences_pro.html"><img src="img/library2.jpg" width=100% alt="bridge"/></a>
+        <a href="index_experiences_pro.html"><img src="img/office2.jpg" width=100% height=100% alt="experiences"/></a>
       </div>
     </div>
 
-    <div class="b3">
+    <div class="section-3">
       <div class="sb3">
-        <a href="index_projets.html"><img src="img/library2.jpg" width=100% alt="bridge"/></a>
+        <a href="index_projets.html"><img src="img/projets2.jpg" width=100% height=100% alt="projets"/></a>
       </div>
       <div class="sb3">
-        <a href="index_associations.html"><img src="img/library2.jpg" width=100% alt="bridge"/></a>
+        <a href="index_associations.html"><img src="img/team2.jpg" width=100% height=100% alt="assocations"/></a>
       </div>
       <div class="sb3">
-        <a href="index_cv.html"><img src="img/library2.jpg" width=100% alt="bridge"/></a>
+        <a href="index_cv.html"><img src="img/cv2.jpg" width=100% height=100% alt="CV"/></a>
+      </div>
+    </div>
+
+    <p class="title-news">Actualités</p>
+
+    <div class="section-21">
+      <div class="sb21">
+        <img src="img/test3.jpg" width=100% height=100% alt="bridge"/>
+        <div class="text-news">
+          <h4>Recherche d'un premier emploi</h4><br>
+          - contexte diffile<br>
+          - programmation logiciel C++, python, Matlab <br>
+          - Informatique graphique, Traitement Image, mais ouvert à toutes les offres
+        </div>
+      </div>
+      <div class="sb12">
+        <img src="img/pants.jpg" width=100% height=100% alt="bridge"/>
       </div>
     </div>
 
@@ -100,7 +143,7 @@
 </div>
 
 
+<script src="js/script1.js"></script> 
 
 </body>
-
 </html>
