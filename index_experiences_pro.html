@@ -4,20 +4,46 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/style_desktop.css">
 <link rel="stylesheet" type="text/css" href="css/style_mobile.css">
-<title id="title-page">Mustapha BENBRIKHO</title>
-<link rel="icon" type="image/png" href="img/site/cube.png" />
+<title>Mustapha BENBRIKHO</title>
+<meta name="description" content="Bonjour à tous et bienvenue sur mon site internet. Celui-ci a pour objectif de partager mon parcours scolaire et professionnel." />
+<link rel="icon" type="image/png" href="img/logo.png" />
 <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-<div class="header" >
-  <p class="imagelogo">
-    <img src="img/site/cube.png" alt="logo" width=30px />
-  </p>
-  <p style="line-height:51px;">
-    <a href="index.html" class="site-name">Mustapha BENBRIKHO</a>
-  </p>
+<!-- Management of the header -->
+<div class="navigation">
+  <div id="company-title">
+    <div class="company-sub-title">
+      <img src="img/logo.png" alt="logo"/>
+      <p>Mustapha BENBRIKHO</p>
+    </div>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="index_cv.html">CV</a></li>
+      <li><a href="index_projets.html">Projets</a></li>
+      <li><a href="#" class="active">Expériences</a>
+        <ul>
+          <li><a href="index_experiences_pro.html" class="active">Expériences professionnelles</a></li>
+          <li><a href="index_associations.html">Expériences associatives</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Profil</a>
+        <ul>
+          <li><a href="#">Présentation</a></li>
+          <li><a href="index_formation.html">Parcours scolaire</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
+
+
 
 <!-- Image en-tête -->
 <div class="wallpaper">
@@ -25,77 +51,107 @@
 </div>
 
 
-<div class="row-1">
-  <!-- Menu de navigation -->
-  <div class="col-menu menu">
-    <ul>
-        <a href="index.html" class="lien_menu"><li>Accueil</li></a>
-        <a href="index_formation.html" class="lien_menu"><li>Formation</li></a>
-        <a href="index_experiences_pro.html" class="lien_menu"><li>Expériences professionnelles</li></a>
-        <a href="index_projets.html" class="lien_menu"><li>Projets</li></a>
-        <a href="index_associations.html" class="lien_menu"><li>Expériences associatives</li></a>
-        <a href="index_cv.html" class="lien_menu"><li>CV<br><br><img src="img/site/logo_cv.png" alt="logo_cv" width=50px/></li></a>
-    </ul>
-  </div>
+<div class="row-1-experience-pro">
 
-  <!-- Partie centrale -->
-  <div class="col-centrale">
-    <div class="col-sous-formation">
-      <h2 class="nom_ecole">Stage d'élève ingénieur (juin-sept 2019)</h2><br>
-      <div class="col-ecole">
-        <img src="img/experiences_pro/sncf_logo.jpg" alt="sncf_logo"  width=60%/>
+  <div class="col-0"></div>
+
+
+  <div class="col-1">
+
+    <p class="title-sncf-2">Stage d'élève ingénieur (juin-sept 2019)</p>
+
+    <div class="section-12">
+      <div class="sb-12">
+        <img src="img/experiences_pro/sncf_logo.jpg" width=100% height=100% alt="logo_sncf"/>
       </div>
-      <div class="col-presentation-ecole"> 
-        <p align="justify">Dans le cadre du stage d’élève ingénieur, j’ai eu l’opportunité de travailler durant 3 mois au sein de l’excellence opérationnelle de la Direction de lignes N&U chez SNCF. Ce stage avait pour objectif d’utiliser mes compétences en programmation informatique dans l’optique de concevoir des projets répondants à des problématiques touchant plusieurs branches de l’entreprise telles que la production ou la lutte anti-fraude.<br><br>
-        J’ai pu réaliser deux types de missions. D’une part, j’ai effectué du traitement de données autour de la lutte anti-fraude, des problématiques de roulements, de la ponctualité ou encore de la gestion de flux. Afin de répondre à ces besoins, j'ai notamment fait appel au logiciel Power Bi basé sur les langages de programmation DAX et M Power Query. D’autre part, j’ai pu utiliser mes compétences en programmation JavaScript afin d’élaborer des plans de garages interactifs. (détails des projets<a href="index_projets.html#projet_stage" class="lien_menu"> ici</a>)<br><br> 
-        Après avoir réalisé un stage d’exécution en tant qu’agent d’escale à la SNCF, ce stage à la direction m’a apporté une nouvelle vision de l’entreprise. J’ai pu ainsi à la fois améliorer mes compétences techniques en informatique mais aussi ma connaissance du monde entrepreneurial.  
+      <div class="sb-21">
+        <img src="img/test3.jpg" width=100% height=100% alt=""/>
+        <div class="text-presentation">
+          Dans le cadre du stage d’élève ingénieur, j’ai eu l’opportunité de travailler durant 3 mois au sein de l’excellence opérationnelle de la Direction de lignes N&U chez SNCF. Ce stage avait pour objectif d’utiliser mes compétences en programmation informatique dans l’optique de concevoir des projets répondants à des problématiques touchant plusieurs branches de l’entreprise telles que la production ou la lutte anti-fraude.<br><br>
+        
+          Après avoir réalisé un stage d’exécution en tant qu’agent d’escale à la SNCF, ce stage à la direction m’a apporté une nouvelle vision de l’entreprise. J’ai pu ainsi à la fois améliorer mes compétences techniques en informatique mais aussi ma connaissance du monde entrepreneurial.<br><br>  
+          <strong>Durée : </strong> 3 mois<br><br>
 
-        </p>
+        </div>
       </div>
     </div>
 
-    <div class="col-sous-formation">
-      <h2 class="nom_ecole">Stage d'éxécution (juil-août 2018)</h2><br>
-      <div class="col-ecole">
-        <img src="img/experiences_pro/sncf_logo.jpg" alt="sncf_logo"  width=60%/>
-      </div>
-      <div class="col-presentation-ecole"> 
-        <p align="justify">Afin de valider mon stage d’exécution d’année 3, j’ai effectué une mission de 5 semaines en tant qu’agent d’escale au sein du service voyageurs SNCF de la gare Paris Nord. J’ai principalement été affecté au point d’information des grandes lignes.<br><br>
-        Plusieurs missions m'ont été confiées :<br>
-        - renseigner les voyageurs<br>
-        - gérer les problèmes de ruptures de correspondances<br>
-        - prendre en charge les personnes en situation d’handicap<br><br>
-        D’un point de vue plus personnel, je voulais profiter de cette occasion pour découvrir le monde de l’entreprise et tester mon aptitude à répondre aux besoins des clients. 
-        </p>
+    <div class="section-1">
+      <div class="sb-1" style="padding-right:30px;">
+        <div class="text-content">
+          <h4>Missions</h4><br>
+              J’ai pu réaliser deux types de missions. D’une part, j’ai effectué du traitement de données autour de la lutte anti-fraude, des problématiques de roulements, de la ponctualité ou encore de la gestion de flux. Afin de répondre à ces besoins, j'ai notamment fait appel au logiciel Power Bi basé sur les langages de programmation DAX et M Power Query. D’autre part, j’ai pu utiliser mes compétences en programmation JavaScript afin d’élaborer des plans de garages interactifs. (détails des projets<a href="index_projets.html#projet_stage" class="lien_menu"> ici</a>)<br><br> 
+        </div>
       </div>
     </div>
 
-    <div class="col-sous-formation">
-      <h2 class="nom_ecole">Professeur particulier (2018-19)</h2><br>
-      <div class="col-ecole">
-        <img src="img/experiences_pro/completude.jpg" alt="completude"  width=60%/>
+
+    <p class="title-sncf-1">Stage d'éxécution (juil-août 2018)</p>
+
+    <div class="section-12">
+      <div class="sb-12">
+        <img src="img/experiences_pro/sncf_logo.jpg" width=100% height=100% alt="logo_sncf"/>
       </div>
-      <div class="col-presentation-ecole"> 
-        <p align="justify">Depuis très jeune, je donnais d'ores et déjà des cours à des voisins ou à mes frères. Dès lors, enseigner à travers une entreprise telle que complétude m'a fortement intéressée.  Ainsi, j'ai pu durant ces deux dernières fournir des cours de Mathématiques et de Physique-Chimie à une fréquence de 4h par semaine. Le niveau des cours donnés s'étendait du collège à la deuxième année de classe préparatoire. 
-        </p>
+      <div class="sb-21">
+        <img src="img/test3.jpg" width=100% height=100% alt=""/>
+        <div class="text-presentation">
+          Afin de valider mon stage d’exécution d’année 3, j’ai effectué une mission de 5 semaines en tant qu’agent d’escale au sein du service voyageurs SNCF de la gare Paris Nord. J’ai principalement été affecté au point d’information des grandes lignes.<br><br>
+          D’un point de vue plus personnel, je voulais profiter de cette occasion pour découvrir le monde de l’entreprise et tester mon aptitude à répondre aux besoins des clients. <br><br>  
+          <strong>Durée : </strong> 2 mois<br><br>
+        </div>
       </div>
     </div>
 
-    <div class="col-sous-formation">
-      <h2 class="nom_ecole">Projet de création d'entreprise</h2><br>
-      <div class="col-ecole">
-        <img src="img/experiences_pro/suitdream.jpg" alt="suitdream"  width=50%/>
+    <div class="section-1">
+      <div class="sb-1" style="padding-right:30px;">
+        <div class="text-content">
+          <h4>Missions</h4><br>
+          - renseigner les voyageurs<br>
+          - gérer les problèmes de ruptures de correspondances<br>
+          - prendre en charge les personnes en situation d’handicap<br>
+        </div>
       </div>
-      <div class="col-presentation-ecole"> 
-        <p align="justify">Chaque année, entre 400 et 500 nouveau-nés décèdent du syndrome de la Mort Inattendue du Nourrisson (MIN). C’est la première cause de mortalité chez les bébés de moins d’un an. Ainsi, le projet de création d’entreprise SuitDream propose une gigoteuse permettant d’aider à prévenir cette mort subite. Une gigoteuse pour bébé est une sorte de sac de couchage avec des bretelles ou des manches. Notre objectif consistait à doter notre gigoteuse de fonctions permettant d’alerter en cas de risques de mort subite chez le nourrisson : la détection du retournement sur le ventre, le suivi en temps réel du rythme cardiaque et des mouvements respiratoires. Notre produit, par le biais d’une application, alerte les parents lorsqu’il y a un risque pour le nourrisson.
-        </p>
+    </div>
+
+    <p class="title-completude">Professeur particulier (2018-19)</p>
+
+    <div class="section-12">
+      <div class="sb-12">
+        <img src="img/experiences_pro/completude.jpg" width=100% height=100% alt="logo_completude"/>
       </div>
-    </div>   
-      
-  </div>
-  <!-- Fin de col-formation -->
-</div>
-<!-- Fin de first_part -->
+      <div class="sb-21">
+        <img src="img/test3.jpg" width=100% height=100% alt=""/>
+        <div class="text-presentation">
+          Depuis très jeune, je donnais d'ores et déjà des cours à des voisins ou à mes frères. Dès lors, enseigner à travers une entreprise telle que complétude m'a fortement intéressée.  Ainsi, j'ai pu durant ces deux dernières fournir des cours de Mathématiques et de Physique-Chimie. <br><br>
+          <strong>Fréquence : </strong> 4h/semaine<br><br>
+          <strong>Niveaux : </strong> De collège à la deuxième année de classe préparatoire. <br><br>
+        </div>
+      </div>
+    </div>
+
+    <p class="title-suitdream">Projet de création d'entreprise</p>
+
+    <div class="section-12" style="margin-bottom:30px;">
+      <div class="sb-12">
+        <img src="img/experiences_pro/suitdream.jpg" width=100% height=100% alt="logo_completude"/>
+      </div>
+      <div class="sb-21">
+        <img src="img/test3.jpg" width=100% height=100% alt=""/>
+        <div class="text-presentation">
+          Chaque année, entre 400 et 500 nouveau-nés décèdent du syndrome de la Mort Inattendue du Nourrisson (MIN). C’est la première cause de mortalité chez les bébés de moins d’un an. Ainsi, le projet de création d’entreprise SuitDream propose une gigoteuse permettant d’aider à prévenir cette mort subite. Une gigoteuse pour bébé est une sorte de sac de couchage avec des bretelles ou des manches. Notre objectif consistait à doter notre gigoteuse de fonctions permettant d’alerter en cas de risques de mort subite chez le nourrisson : la détection du retournement sur le ventre, le suivi en temps réel du rythme cardiaque et des mouvements respiratoires. Notre produit, par le biais d’une application, alerte les parents lorsqu’il y a un risque pour le nourrisson. <br><br>
+          <strong>Rôle : </strong> Responsable technique<br><br>
+        </div>
+      </div>
+    </div>
+    
+
+  </div><!-- end col-1 -->
+
+  <div class="col-2"></div>
+
+</div><!-- end row-1 -->
+
+
 
 <!-- Contact -->
 <div class="footer">
@@ -108,7 +164,6 @@
       <p>mustapha.benbrikho@cpe.fr</p>
     </div>
 
-
     <div class="col-contact">
       <a href="https://www.linkedin.com/in/mustapha-benbrikho-876606162/">
       <img src="img/site/linkedin_white.png" alt="linkedin_white" width=30px/></a>
@@ -118,7 +173,7 @@
 </div>
 
 
+<script src="js/script1.js"></script> 
 
 </body>
-
 </html>

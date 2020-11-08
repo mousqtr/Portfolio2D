@@ -1,66 +1,34 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
+* { box-sizing: border-box; margin: 0;}
+html { font-family: "Lucida Sans", sans-serif;}
+body { background-color: #F2F2F2;}
 
-html {
-  font-family: "Lucida Sans", sans-serif;
-}
-
-body {
-  background-color: #F2F2F2;
-}
 
 
 
 
 /* Left part of the header (icon + name of the company) */
-.navigation{
-  position: relative;
-  z-index: 10;
-}
-
+.navigation{ position: relative; z-index: 10;}
 .navigation * {box-sizing: content-box;}
 
-#company-title{
+#company-title{ width: 30%;
+                background-color: #333;}
+.company-sub-title{ width: 100%; height: 100%, margin: 0;
+                    display: flex;}
+#company-title img{ color: #FFFFFF; border: 1px solid #bbb;}
+#company-title p{ width: 70%; margin-left: 16px; margin-top:14px; margin-bottom: 14px;
+                  color: #FFFFFF; text-align: middle;}
 
-  width: 30%;
-  background-color: #333;
-}
-.company-sub-title{
-  width: 100%;
-  height: 100%
-  margin: 0;
-  display: flex;
-}
-#company-title img{
-  color: #FFFFFF;
-  border: 1px solid #bbb;
-}
-#company-title p{
-  width: 70%;
-  margin-left: 16px;
-  color: #FFFFFF;
-  text-align: middle;
-  margin-top:14px;
-  margin-bottom: 14px;
-}
-
-#menu ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #333;
-}
-
-#menu li a:hover {
-  background-color: #FF8C00;
-}
+/* Right part of the header (menu) */
+#menu ul { list-style-type: none; overflow: hidden;
+          background-color: #333;}
+#menu li a:hover { background-color: #FF8C00;}
 
 /* Sub menu management*/
 #menu ul li ul {display:none;}
 #menu ul li:hover ul {display:block;}
 #menu li:hover ul li {float:none;}
 
+/* Change color of selected page */
 .active{background-color: #FF8C00}
 
 
@@ -68,65 +36,113 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-.row-1::after {
-  content: "";
-  clear: both;
-  display: block;
-}
+/* Global variables */
+[class*="row-1-"]::after {content: ""; clear: both; display: block;}
 
 [class*="col-"] {float: left; padding: 10px;}
 
-.col-1{
-  padding: 0px;
-  margin-top:0px;
-}
+.col-1{padding: 0px; margin-top:0px;}
 
-
-/* Home page */
+/* Common variable page */
 [class*="title-"] { width:96%; margin-left: 2%; margin-right: 2%; padding: 4px;
                   font-weight: bold; letter-spacing: 1px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 2vw;
                   color:white;
                   box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
 
-.title-presentation {background-color: #FF8C00;}
-.section-12 {display: flex; padding: 0px; width:100%;}
-.section-12 .sb12 {width:32%; margin-left: 2%; margin-right: 2%;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
-.section-12 .sb21 {width:62%; margin-left: 2%, margin-right: 2%;position:relative;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
-
-[class*="text-"]{position: absolute; top:10px; bottom:10px; left:10px; right:10px; 
-                  text-align: justify; font-size: 1.3vw; font-family: Arial, Helvetica, sans-serif; 
+[class*="text-"]{position: absolute; top:15px; bottom:10px; left:10px; right:10px; 
+                  text-align: justify; font-size: 1vw; font-family: Arial, Helvetica, sans-serif; 
                   color:black;}
 [class*="text-"] h4{text-align: center}
+[class*="section-"] {display: flex; padding: 0px; width:100%;}
+[class*="sb-"] {box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
 
+.section-12 .sb-12 {width:32%; margin-left: 2%; margin-right: 2%;}
+.section-12 .sb-21 {width:62%; margin-left: 2%, margin-right: 2%; position:relative;}
 
+.section-21 .sb-21{width:62%; margin-left: 2%; margin-right: 2%; position:relative;}
+.section-21 .sb-12 {width:32%; margin-left: 2%; margin-right: 2%;}
+
+.section-3 .sb-3 {width:30%; margin-left: 2%; margin-right: 2%;}
+
+.section-1 .sb-1 {width:96%; margin-left:2%; background-color: white}
+
+/* Index page */
+.title-presentation {background-color: #FF8C00;}
 .title-selection {background-color: #12014f;}
-.section-3 {display: flex; padding: 0px; width:100%;}
-.sb3 {width:32%; margin-left: 2%; margin-right: 2%;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
-.sb3 img:hover {opacity: 0.7;}
-
-
 .title-news {background-color: #FF6347;}
-.section-21 {display: flex; padding: 0px; width:100%;}
-.section-21 .sb21{width:62%; margin-left: 2%; margin-right: 2%;position:relative;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
-.section-21 .sb12 {width:32%; margin-left: 2%; margin-right: 2%;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.2); border:3px solid white;}
 
+.row-1-index .section-3 .sb-3 img:hover {opacity: 0.7;}
 
+/* Formation page */
+.title-engineer {background-color: #4a458c;}
+.title-prepa {background-color: #8484c4;}
+.title-highschool {background-color: #c28b86;}
 
+.row-1-formation .section-12 {margin-bottom: 0px;}
+.row-1-formation .text-content{position: relative; margin-bottom:30px;}
 
+/* Experience pro page */
+.title-sncf-2 {background-color: #1b538a;}
+.title-sncf-1 {background-color: #46739c;}
+.title-completude {background-color: #698fb0;}
+.title-suitdream {background-color: #8cacc4;}
+
+.row-1-experience-pro .section-12 {margin-bottom: 0px;}
+.row-1-experience-pro .text-content{position: relative; margin-bottom:30px;}
+
+/* Experience associative page */
+.title-cpe {background-color: #5b9423;}
+.title-apridev {background-color: #9bc270;}
+
+/* Projet page */
+.section-3 .sb-3-empty {width:30%; margin-left: 2%; margin-right: 2%; visibility: hidden;}
+.row-1-project .sb-3 {position: relative;}
+.row-1-project .image { display: block; height: auto;}
+.row-1-project [class*="overlay-"] { position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                    height: 100%; width: 100%;
+                                    opacity: 0; transition: .5s ease;}
+
+.row-1-project .sb-3:hover [class*="overlay-"] {
+  opacity: 1;
+}
+.row-1-project .text {
+  color: white;
+  font-size: 1vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width:90%;
+}
+
+.row-1-project .overlay-projects-in-progress { background-color: #391f50;}
+.title-projects-in-progress { background-color: #391f50;}
+
+.row-1-project .overlay-games { background-color: #743b61;}
+.title-games { background-color: #743b61;}
+
+.row-1-project .overlay-image-processing { background-color: #bb746e;}
+.title-image-processing { background-color: #bb746e;}
+
+.row-1-project .overlay-data-transmission { background-color: #ac94ac;}
+.title-data-transmission { background-color: #ac94ac;}
+
+.row-1-project .overlay-electronic { background-color: #8a5c7f;}
+.title-electronic { background-color: #8a5c7f;}
+
+.row-1-project .overlay-internship { background-color: #391f50;}
+.title-internship { background-color: #391f50;}
+
+.row-1-project .overlay-website { background-color: #743b61;}
+.title-website { background-color: #743b61;}
+
+.row-1-project .overlay-others { background-color: #bb746e;}
+.title-others { background-color: #bb746e;}
+
+/*
 .col-centrale{
   padding: 0px;
   border : 10px solid #F2F2F2;
@@ -136,10 +152,11 @@ body {
 
 .col-centrale a{
   color: #000000;
-}
+}*/
 
 
 /*En-tête*/
+/*
 .header{
   background-color: #000000;
 }
@@ -164,7 +181,7 @@ body {
 .menu ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 .menu li {
   padding: 8px;
@@ -183,10 +200,10 @@ body {
 }
 .menu li:hover {
   background-color:#6600cc;
-}
+}*/
 
 
-/* Formation */
+/* Formation *//*
 .nom_ecole{
   text-align: center;
 }
@@ -199,7 +216,7 @@ body {
 }
 .col-ecole {
   text-align: center;
-}
+}*/
 
 /*
 .contenu_scientifique li ul{display: none;}
@@ -324,6 +341,7 @@ b:before{
   padding: 15px;
   font-weight: bold;
   text-decoration: none;
+  padding-bottom: 500px;
 }
 
 
@@ -337,9 +355,9 @@ b:before{
 .col-contact {width: 50%;}
 .col-menu {width: 25%;}
 
-
+/*
 .col-presentation-ecole {width: 75%;}
-.col-ecole {width: 25%;}
+.col-ecole {width: 25%;}*/
 
 
 .col-projet{width: 46%;}
