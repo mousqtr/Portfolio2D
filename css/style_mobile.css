@@ -32,23 +32,6 @@
 [class*="title-"] {margin-top:5px; margin-bottom: 5px;}
 [class*="section-"] {margin-top: 10px; margin-bottom: 20px;}
 
-
-
-
-.col-menu {width: 100%;}
-.col-cv {width: 100%;}
-.col-centrale {width: 100%;}
-.col-contact-titre {width: 100%;}
-.col-contact {width: 50%;}
-
-.col-photo{width: 50%;}
-.col-presentation {width: 100%;}
-  
-.col-ecole {width: 100%;}
-.col-presentation-ecole {width: 100%;} 
-
-.col-projets{width: 96%;} 
-.col-presentation-projets {width: 65%;}
 }
 
 
@@ -70,20 +53,6 @@
 [class*="title-"] {margin-top:5px; margin-bottom: 5px;}
 [class*="section-"] {margin-top: 10px; margin-bottom: 25px;}
 
-.col-menu {width: 100%;}
-.col-cv {width: 100%;}
-.col-centrale {width: 100%;}
-.col-contact-titre {width: 100%;}
-.col-contact {width: 50%;}
-
-.col-photo{width: 45%;}
-.col-presentation {width: 100%;}
-
-.col-ecole {width: 35%;}
-.col-presentation-ecole {width: 65%;}
-
-.col-projets{width: 96%;}
-.col-presentation-projets {width: 65%;}
 }
 
 
@@ -105,14 +74,6 @@
 [class*="title-"] {margin-top:6px; margin-bottom: 6px;}
 [class*="section-"] {margin-top: 10px; margin-bottom: 30px;}
 
-.col-photo{width: 40%;}
-.col-presentation {width: 100%;}
-
-.col-ecole {width: 35%;}
-.col-presentation-ecole {width: 65%;}
-
-.col-projets{width: 96%;}
-.col-presentation-projets {width: 65%;}
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
@@ -130,15 +91,6 @@
 /* Home page */
 [class*="title-"] {margin-top:7px; margin-bottom: 7px;}
 [class*="section-"] {margin-top: 10px; margin-bottom: 35px;}
-
-.col-photo{width: 35%;}
-.col-presentation {width: 100%;}
-
-.col-ecole {width: 35%;}
-.col-presentation-ecole {width: 65%;}
-
-.col-projets{width: 96%;}
-.col-presentation-projets {width: 65%;}
 
 }
 
@@ -160,14 +112,6 @@
 [class*="title-"] {margin-top:8px; margin-bottom: 8px;}
 [class*="section-"] {margin-top: 10px; margin-bottom: 40px;}
 
-.col-photo{width: 30%;}
-
-.col-ecole {width: 25%;}
-.col-presentation-ecole {width: 75%;}
-
-.col-projets{width: 46%;}
-.col-presentation-projets {width: 65%;}
-
 }
 
 
@@ -187,14 +131,6 @@
 [class*="title-"] {margin-top:9px; margin-bottom: 9px;}
 [class*="section-"] {margin-top: 10px; margin-bottom: 45px;}
 
-.col-photo{width: 30%;}
-
-.col-ecole {width: 25%;}
-.col-presentation-ecole {width: 75%;}
-
-.col-projets{width: 46%;}
-.col-presentation-projets {width: 65%;}
-
 }
 
 
@@ -213,13 +149,5 @@
 /* Home page */
 [class*="title-"] {margin-top:10px; margin-bottom: 10px;}
 [class*="section-"] {margin-top: 10px; margin-bottom: 50px;}
-
-.col-photo{width: 30%;}
-
-.col-ecole {width: 25%;}
-.col-presentation-ecole {width: 75%;}
-
-.col-projets{width: 46%;}
-.col-presentation-projets {width: 65%;}
 
 }
