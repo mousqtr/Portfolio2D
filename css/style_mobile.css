@@ -10,6 +10,22 @@
 #menu li {margin:auto;padding:0;}
 #menu li ul {position:relative;}
 
+.sb-3 {width:44%;}
+.sb-1 {width:92%;}
+.sb-12-1 {width: 92%;}
+.sb-12-2 {width: 92%;}
+.sb-21-1 {width: 92%;}
+.sb-21-2 {width: 92%;}
+
+.row-1-index .sb-12-1 {display: none;}
+.row-1-index .sb-21-2 {display: none;}
+
+.row-1-index .text-presentation {font-size: 1.7vw;}
+.row-1-index .text-news {font-size: 1.7vw;}
+
+
+.row-1-project .text { font-size: 1.7vw;}
+
 }
 
 
@@ -24,9 +40,9 @@
 #company-title p{margin-bottom: 8px; font-size: 12px;}
 .navigation a {padding: 10px 10px;font-size: 12px;}
 
-.col-0 {width: 0%;padding:0;}
+.col-0 {display: none;}
 .col-1 {width: 100%;}
-.col-2 {width: 0%;padding:0;}
+.col-2 {display: none;}
 
 /* Home page */
 [class*="title-"] {margin-top:5px; margin-bottom: 5px;}
