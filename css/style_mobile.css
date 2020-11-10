@@ -1,11 +1,13 @@
 @media only screen and (max-width: 1000px) {
 
 /* Menu transformation */
-.navigation {overflow: hidden;background-color: #333;position: relative;}
+.navigation {overflow: hidden; background-color: #333; position: relative;}
 .navigation #menu {display: none;}
 .navigation a {color: white;padding: 16px 16px;text-decoration: none;font-size: 18px;display: block;}
-.navigation a.icon {background: #FF8C00;display: block;position: absolute;right: 0;top: 0;}
-#company-title{width: 80%;}
+.navigation a.icon {background: #333; display: block; position: left; left: 0;top: 0; height:20px;}
+.navigation .fa {font-size: 25px;}
+.navigation .fa-angle-double-up {display: none}
+
 #menu ul {list-style-type: none;overflow: hidden;background-color: #333;}
 #menu li {margin:auto;padding:0;}
 #menu li ul {position:relative;}
@@ -35,10 +37,6 @@
     width: 100%;
   }
 
-/* Header content */
-#company-title img{width: 28px; height: 28px;margin: 2px;}
-#company-title p{margin-bottom: 8px; font-size: 12px;}
-.navigation a {padding: 10px 10px;font-size: 12px;}
 
 .col-0 {display: none;}
 .col-1 {width: 100%;}
@@ -56,10 +54,6 @@
     width: 100%;
   }
 
-/* Header content */
-#company-title img{width: 28px; height: 28px;margin: 2px;}
-#company-title p{margin-bottom: 8px; font-size: 12px;}
-.navigation a {padding: 10px 10px;font-size: 12px;}
 
 .col-0 {width: 0%; padding:0;}
 .col-1 {width: 100%;}
@@ -77,10 +71,6 @@
     width: 100%;
   }
 
-/* Header content */
-#company-title img{width: 28px; height: 28px;margin: 2px;}
-#company-title p{margin-bottom: 8px; font-size: 12px;}
-.navigation a {padding: 10px 10px;font-size: 12px;}
 
 .col-0 {width: 2.5%;}
 .col-1 {width: 95%;}
@@ -94,10 +84,6 @@
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
 
-/* Header content */
-#company-title img{width: 32px; height: 32px; margin: 6px;}
-.navigation a {padding: 5px 5px;font-size: 20px;}
-#company-title p{font-size: 14px;}
 #menu li a {width:100px;padding: 16px 16px;font-size: 14px;}
 
 .col-0 {width: 5%;}
@@ -114,10 +100,7 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
-/* Header content */
-#company-title img{width: 32px; height: 32px; margin: 6px;}
-.navigation a {padding: 5px 5px;font-size: 20px;}
-#company-title p{font-size: 14px;}
+
 #menu li a {width:100px;padding: 16px 16px;font-size: 14px;}
 
 .col-0 {width: 7.5%;}
@@ -133,10 +116,7 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
-/* Header content */
-#company-title img{width: 32px; height: 32px; margin: 6px;}
-.navigation a {padding: 5px 5px;font-size: 20px;}
-#company-title p{font-size: 14px;}
+
 #menu li a {width:100px;padding: 16px 16px;font-size: 14px;}
 
 .col-0 {width: 11%;}
@@ -152,10 +132,7 @@
 
 @media only screen and (min-width: 1500px)  {
 
-/* Header content */
-#company-title img{width: 32px; height: 32px; margin: 6px;}
-.navigation a {padding: 5px 5px;font-size: 20px;}
-#company-title p{font-size: 14px;}
+
 #menu li a {width:100px;padding: 16px 16px;font-size: 14px;}
 
 .col-0 {width: 15%;}

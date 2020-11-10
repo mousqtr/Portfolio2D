@@ -1,20 +1,27 @@
 
 /* Make the menu out for mobile version */ 
 var m_menu = document.getElementById("menu");
+var m_up = document.getElementById("up");
+var m_down = document.getElementById("down");
 var widthOutput = document.querySelector('#width');
 var mobileWidth = 1000;
 
 function myFunction() {
   if (m_menu.style.display === "block") {
     m_menu.style.display = "none";
+    m_up.style.display = "none";
+    m_down.style.display = "block";
   } else {
     m_menu.style.display = "block";
+    m_up.style.display = "block";
+    m_down.style.display = "none";
   }
 }
 
 function resize() { 
   if(window.innerWidth > mobileWidth) {
     m_menu.style.display = "block";
+
   }else{
     m_menu.style.display = "none";
   }

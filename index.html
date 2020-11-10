@@ -2,45 +2,44 @@
 <html>
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style_desktop.css">
 <link rel="stylesheet" type="text/css" href="css/style_mobile.css">
 <title>Mustapha BENBRIKHO</title>
 <meta name="description" content="Bonjour à tous et bienvenue sur mon site internet. Celui-ci a pour objectif de partager mon parcours scolaire et professionnel." />
 <link rel="icon" type="image/png" href="img/logo.png" />
 <meta charset="UTF-8">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <!-- Management of the header -->
 <div class="navigation">
-  <div id="company-title">
-    <div class="company-sub-title">
-      <img src="img/logo.png" alt="logo"/>
-      <p>Mustapha BENBRIKHO</p>
-    </div>
-  </div>
+
   <div id="menu">
     <ul>
       <li><a href="index.html" class="active">Accueil</a></li>
-      <li><a href="index_cv.html">CV</a></li>
-      <li><a href="index_projets.html">Projets</a></li>
-      <li><a href="#">Expériences</a>
-        <ul>
-          <li><a href="index_experiences_pro.html">Expériences professionnelles</a></li>
-          <li><a href="index_associations.html">Expériences associatives</a></li>
-        </ul>
-      </li>
       <li><a href="#">Profil</a>
         <ul>
           <li><a href="#">Présentation</a></li>
           <li><a href="index_formation.html">Formation</a></li>
         </ul>
       </li>
+      <li><a href="#">Expériences</a>
+        <ul>
+          <li><a href="index_experiences_pro.html">Expériences professionnelles</a></li>
+          <li><a href="index_associations.html">Expériences associatives</a></li>
+        </ul>
+      </li>    
+      <li><a href="index_projets.html">Projets</a></li>        
+      <li><a href="index_cv.html">CV</a></li>
     </ul>
   </div>
+
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+    <i class="fa fa-bars" id="down"></i>
+    <i class="fa fa-angle-double-up" id="up" style="display:none"></i>
   </a>
+
 </div>
 
 

@@ -169,7 +169,7 @@ body { background-color: #F2F2F2;}
 
 /* Right header menu management */
 #menu{
-  width: 70%;
+  width: 100%;
 }
 #menu ul {
   margin:0;
@@ -177,7 +177,7 @@ body { background-color: #F2F2F2;}
   text-align:center;
 }
 #menu li {
-  float:right;
+  float:left;
   margin:auto;
   padding:0;
   color:#FFD700;
@@ -204,7 +204,7 @@ body { background-color: #F2F2F2;}
 
 
 /* Display border of each menu element */
-#menu li:first-child {border-right: none;}
+/*#menu li:first-child {border-right: none;}*/
 #menu li:last-child {border-left: 1px solid #bbb;}
 #menu ul li ul li:first-child {border: none;}
 #menu ul li ul li:last-child {border: none;}
