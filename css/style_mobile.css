@@ -2,11 +2,11 @@
 
 /* Menu transformation */
 .navigation {overflow: hidden; background-color: #333; position: relative;}
-.navigation #menu {display: none;}
+.navigation #menu {display: none; }
 .navigation a {color: white;padding: 16px 16px;text-decoration: none;font-size: 18px;display: block;}
 .navigation a.icon {background: #333; display: block; position: left; left: 0;top: 0; height:20px;}
-.navigation .fa {font-size: 25px;}
-.navigation .fa-angle-double-up {display: none}
+.navigation .fa {font-size: 25px; }
+.navigation .fa-angle-double-up {display: none;}
 
 #menu ul {list-style-type: none;overflow: hidden;background-color: #333;}
 #menu li {margin:auto;padding:0;}
@@ -22,9 +22,10 @@
 .row-1-index .sb-12-1 {display: none;}
 .row-1-index .sb-21-2 {display: none;}
 
-.row-1-index .text-presentation {font-size: 1.7vw;}
+.row-1-index .text-presentation {font-size: 2vw;}
 .row-1-index .text-news {font-size: 1.7vw;}
 
+.text-content{font-size: 1.7vw;}
 
 .row-1-project .text { font-size: 1.7vw;}
 
