@@ -136,8 +136,12 @@ body { background-color: #F2F2F2;}
 .title-others { background-color: #bb746e;}
 
 /* CV Page */
-.row-1-cv .cv_dl {text-align: right; font-weight: bold; width:95%; margin-right: 5%}
-.row-1-cv .cv {text-decoration: none;}
+.row-1-cv .cv_dl {text-align: right; font-weight: bold; width:95%; margin-right: 5%; margin-top:2vw;margin-bottom: 2vw;}
+.row-1-cv [class*="cv-link-"] {text-decoration: none;  color:white; border:3px solid #d3dfed;
+                  font-size:1.7vw; padding-left:2%; padding-right:2%;  padding-top: 10px; padding-bottom: 10px;  }
+.row-1-cv .cv-link-1 { background-color: #234980; margin-right:5%;}
+.row-1-cv .cv-link-2 { background-color: #44b373;}       
+.row-1-cv .cv_img {margin-left:5%; margin-right:5%; margin-top:10px; border:2px solid black;}
 
 /* Contact */
 .contact::after { content: ""; clear: both; display: block;}
