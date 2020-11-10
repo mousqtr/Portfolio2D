@@ -21,7 +21,7 @@ body { background-color: #F2F2F2;}
 /* Right part of the header (menu) */
 #menu ul { list-style-type: none; overflow: hidden;
           background-color: #333;}
-#menu li a:hover { background-color: #FF8C00;}
+#menu li a:hover { background-color: #FF6347;}
 
 /* Sub menu management*/
 #menu ul li ul {display:none;}
@@ -82,7 +82,7 @@ body { background-color: #F2F2F2;}
 /* Formation page */
 .title-engineer {background-color: #4a458c;}
 .title-prepa {background-color: #8484c4;}
-.title-highschool {background-color: #c28b86;}
+.title-highschool {background-color: #8d7d9f;}
 
 .row-1-formation .text-content{position: relative; padding-bottom: 30px; padding-right: 30px;}
 
@@ -143,17 +143,19 @@ body { background-color: #F2F2F2;}
 .row-1-cv .cv-link-2 { background-color: #44b373;}       
 .row-1-cv .cv_img {margin-left:5%; margin-right:5%; margin-top:10px; border:2px solid black;}
 
+/* Contact page */
+
 /* Contact */
 .contact::after { content: ""; clear: both; display: block;}
 
 .title-contact { background-color: #000000; border: 0px;}
 
-.footer { background-color: #000000; color: #ffffff;
+#footer { background-color: #000000; color: #ffffff;
           text-align: center;
           padding: 15px; padding-bottom: 200;}
 
-.footer .sb-2 { border:0px; background-color: black;}
-.footer img {width:75%; height:75%;}
+#footer .sb-2 { border:0px; background-color: black;}
+#footer img {width:75%; height:75%;}
 
 
 
@@ -195,6 +197,11 @@ body { background-color: #F2F2F2;}
 .navigation a.icon {
   display: none;
 }
+
+.navigation a.icon-2 {
+  display: none;
+}
+
 
 #menu{
   display: block;
