@@ -61,25 +61,41 @@
 
   <div class="col-1">
 
-    <a onclick="open_project(0)"><p class="title-projects-in-progress">Projets personnels en cours</p></a>
+    <a onclick="open_project(0)">
+      <div class="title-progress">
+        <p>Projets personnels en cours</p>
+        <div>
+          <i class="fa fa-angle-double-right" id="open-icon-progress"></i>
+          <i class="fa fa-angle-double-down" id="close-icon-progress"></i>
+        </div>
+      </div>
+    </a>
 
     <div id="progress" style="display:none">
       <div class="sb-3">
         <img src="img/projets/ia.jpg" width=100% height=100% alt="" class="image"/>
-        <div class="overlay-projects-in-progress">
+        <div class="overlay-progress">
           <div class="text">Contenu confidentiel</div>
         </div>
       </div>
       
       <div class="sb-3">
         <img src="img/projets/stock.jpg" alt="" class="image" width=100% height=100%/>
-        <div class="overlay-projects-in-progress">
+        <div class="overlay-progress">
           <div class="text">Contenu confidentiel</div>
         </div>
       </div>
     </div>
 
-    <a onclick="open_project(1)"><p class="title-games">Jeux vidéos</p></a>
+    <a onclick="open_project(1)">
+      <div class="title-games">
+        <p>Jeux vidéos</p>
+        <div>
+          <i class="fa fa-angle-double-right" id="open-icon-games"></i>
+          <i class="fa fa-angle-double-down" id="close-icon-games"></i>
+        </div>
+      </div>
+    </a>
 
     <div id="games" style="display:none">
       <div class="sb-3">
@@ -124,12 +140,20 @@
       </div>
     </div>
 
-    <a onclick="open_project(2)"><p class="title-image-processing">Traitement d'image</p></a>
+    <a onclick="open_project(2)">
+      <div class="title-image">
+        <p>Traitement d'image</p>
+        <div>
+          <i class="fa fa-angle-double-right" id="open-icon-image"></i>
+          <i class="fa fa-angle-double-down" id="close-icon-image"></i>
+        </div>
+      </div>
+    </a>
 
     <div id="image" style="display:none">
       <div class="sb-3">
         <img src="img/projets/app.jpg" width=100% height=100% alt=""/>
-        <div class="overlay-image-processing">
+        <div class="overlay-image">
           <div class="text">
             Durant le projet de majeure Image de 5ème année, j'ai travaillé d'une part sur le traitement d'un flux vidéo afin de permettre la détection et l'identification d'une carte. D'autre part, j'ai calibré une caméra afin de récupérer la position et l'orientation de la carte. Enfin l'application mobile a été implémenté en utilisant la librairie Qt. 
           </div>
@@ -137,7 +161,7 @@
       </div>
       <div class="sb-3">
         <img src="img/projets/detect.jpg" width=100% height=100% alt=""/>
-        <div class="overlay-image-processing">
+        <div class="overlay-image">
           <div class="text">
             Afin de valider ma 4ème année d'école d'ingénieur, j'ai eu l'opportunité de réaliser un projet portant sur ma majeur (traitement d'image). J'ai ainsi implémenté un programme permettant de détecter la valeur d'une résistance à partir d'une photo de celle-ci (débruitage, rotation, segmentation, détection des couleurs). 
           </div>
@@ -145,7 +169,7 @@
       </div>
       <div class="sb-3">
         <img src="img/projets/resis.jpg" width=100% height=100% alt=""/>
-        <div class="overlay-image-processing">
+        <div class="overlay-image">
           <div class="text">
             Dans le cadre du projet de robot connecté de 4e année, j'étais en charge de coder le programme de détection d'obstacles. Celui-ci devait permettre de détecter la forme et la couleur d'un obstacle à partir d'une photographie. Notions utilisées : algorithmes de segmentation, morphologie mathématique, colorimétrie …
           </div>
@@ -153,12 +177,20 @@
       </div>
     </div>  
 
-    <a onclick="open_project(3)"><p class="title-data-transmission">Transmission de données</p></a>
+    <a onclick="open_project(3)">
+      <div class="title-transmission">
+        <p>Transmission de données</p>
+        <div>
+          <i class="fa fa-angle-double-right" id="open-icon-transmission"></i>
+          <i class="fa fa-angle-double-down" id="close-icon-transmission"></i>
+        </div>
+      </div>
+    </a>
 
     <div id="transmission" style="display:none">
       <div class="sb-3">
         <img src="img/projets/ech_file.jpg" width=100% height=100% alt=""/>
-        <div class="overlay-data-transmission">
+        <div class="overlay-transmission">
           <div class="text">
             Le projet transversal de l’année 4 m’a permis de mettre en pratique mes connaissances en Java afin d’établir un échange de fichiers entre deux PC (un serveur et un client). Ainsi, le programmé implémentée permet d’assurer une communication automatique tout en suivant un protocole prédéfini. 
           </div>
@@ -166,7 +198,7 @@
       </div>
       <div class="sb-3">
         <img src="img/projets/mod.jpg" width=100% height=100% alt=""/>
-        <div class="overlay-data-transmission">
+        <div class="overlay-transmission">
           <div class="text">
             À la suite du module de traitement du signal d’année 3, j'ai participé à la conception d'un programme de modulation et de démodulation d'un message vocal ainsi l'objectif était de dissimuler une information puis de pouvoir la retrouver. 
           </div>
@@ -174,7 +206,15 @@
       </div>
     </div>
 
-    <a onclick="open_project(4)"><p class="title-electronic">Programmation électonique</p></a>
+    <a onclick="open_project(4)">
+      <div class="title-electronic">
+        <p>Programmation électonique</p>
+        <div>
+          <i class="fa fa-angle-double-right" id="open-icon-electronic"></i>
+          <i class="fa fa-angle-double-down" id="close-icon-electronic"></i>
+        </div>
+      </div>
+    </a>
 
     <div id="electronic" style="display:none">
       <div class="sb-3">
@@ -203,7 +243,15 @@
       </div>
     </div>  
 
-    <a onclick="open_project(5)"><p class="title-internship">Projets de stage</p></a>
+    <a onclick="open_project(5)">
+      <div class="title-internship">
+        <p>Projets de stage</p>
+        <div>
+          <i class="fa fa-angle-double-right" id="open-icon-internship"></i>
+          <i class="fa fa-angle-double-down" id="close-icon-internship"></i>
+        </div>
+      </div>
+    </a>
 
     <div id="internship" style="display:none">
 
@@ -254,7 +302,15 @@
 
     </div>
 
-    <a onclick="open_project(6)"><p class="title-website">Site internet</p></a>
+    <a onclick="open_project(6)">
+      <div class="title-website">
+        <p>Site internet</p>
+        <div>
+          <i class="fa fa-angle-double-right" id="open-icon-website"></i>
+          <i class="fa fa-angle-double-down" id="close-icon-website"></i>
+        </div>
+      </div>
+    </a>
 
     <div id="website" style="display:none">
 
@@ -269,7 +325,15 @@
 
     </div>
 
-    <a onclick="open_project(7)"><p class="title-others">Autres projets</p></a>
+    <a onclick="open_project(7)">
+      <div class="title-others">
+        <p>Autres projets</p>
+        <div>
+          <i class="fa fa-angle-double-right" id="open-icon-others"></i>
+          <i class="fa fa-angle-double-down" id="close-icon-others"></i>
+        </div>
+      </div>
+    </a>
 
     <div id="others" style="display:none">
 

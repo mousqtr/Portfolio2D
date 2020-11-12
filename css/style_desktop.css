@@ -79,6 +79,7 @@ body { background-color: #F2F2F2;}
 .row-1-index .sb-21-1 {position:relative;}
 
 
+
 /* Formation page */
 .title-engineer {background-color: #4a458c;}
 .title-prepa {background-color: #4a458c;}
@@ -111,17 +112,17 @@ body { background-color: #F2F2F2;}
                       width:90%; top: 50%; left: 50%; position: absolute;
                       -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 
-.row-1-project .overlay-projects-in-progress { background-color: #391f50;}
-.title-projects-in-progress { background-color: #391f50;}
+.row-1-project .overlay-progress { background-color: #391f50;}
+.title-progress { background-color: #391f50;}
 
 .row-1-project .overlay-games { background-color: #743b61;}
 .title-games { background-color: #391f50;}
 
-.row-1-project .overlay-image-processing { background-color: #bb746e;}
-.title-image-processing { background-color: #391f50;}
+.row-1-project .overlay-image { background-color: #bb746e;}
+.title-image { background-color: #391f50;}
 
-.row-1-project .overlay-data-transmission { background-color: #ac94ac;}
-.title-data-transmission { background-color: #391f50;}
+.row-1-project .overlay-transmission { background-color: #ac94ac;}
+.title-transmission { background-color: #391f50;}
 
 .row-1-project .overlay-electronic { background-color: #8a5c7f;}
 .title-electronic { background-color: #391f50;}
@@ -134,6 +135,10 @@ body { background-color: #F2F2F2;}
 
 .row-1-project .overlay-others { background-color: #bb746e;}
 .title-others { background-color: #391f50;}
+
+.row-1-project [class*="title-"] p{position:relative; float:left; width:92%; padding-left: 10%;}
+.row-1-project .fa-angle-double-right {position:relative; text-align: right; right:0; float:right; width:4%; margin-right: 2%;}
+.row-1-project .fa-angle-double-down {position:relative; text-align: right; right:0; float:right; width:4%; margin-right: 2%; display:none;}
 
 /* CV Page */
 .row-1-cv .cv_dl {text-align: right; font-weight: bold; width:95%; margin-right: 5%; margin-top:2vw;margin-bottom: 2vw;}
